@@ -25,7 +25,7 @@ function draw() {
     
     for (let i = gameObjects.length - 1; i >= 0; i--) {
         gameObjects[i].display();
-        gameObjects[i].move();
+        gameObjects[i].move(); 
 
         if (gameObjects[i].x <= -100) {
             gameObjects.splice(i, 1);
