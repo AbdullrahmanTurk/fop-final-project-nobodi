@@ -42,7 +42,7 @@ function draw() {
                     gameObjects.splice(i, 1);
                 }
 
-                if (dist(gameObjects[i].x, gameObjects[i].y, x, y) < 100) {
+                if (dist(gameObjects[i].x, gameObjects[i].y, x, y) < 200) {
                     gameOver();
                 }
 
